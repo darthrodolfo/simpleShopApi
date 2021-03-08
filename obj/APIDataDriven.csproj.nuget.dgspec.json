@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\DevStuff\\APIs\\dotNet\\APIDataDriven\\APIDataDriven.csproj": {}
+    "f:\\DevStuff\\APIs\\dotNet\\APIDataDriven\\APIDataDriven.csproj": {}
   },
   "projects": {
-    "F:\\DevStuff\\APIs\\dotNet\\APIDataDriven\\APIDataDriven.csproj": {
+    "f:\\DevStuff\\APIs\\dotNet\\APIDataDriven\\APIDataDriven.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\DevStuff\\APIs\\dotNet\\APIDataDriven\\APIDataDriven.csproj",
+        "projectUniqueName": "f:\\DevStuff\\APIs\\dotNet\\APIDataDriven\\APIDataDriven.csproj",
         "projectName": "APIDataDriven",
-        "projectPath": "F:\\DevStuff\\APIs\\dotNet\\APIDataDriven\\APIDataDriven.csproj",
+        "projectPath": "f:\\DevStuff\\APIs\\dotNet\\APIDataDriven\\APIDataDriven.csproj",
         "packagesPath": "C:\\Users\\darth\\.nuget\\packages\\",
-        "outputPath": "F:\\DevStuff\\APIs\\dotNet\\APIDataDriven\\obj\\",
+        "outputPath": "f:\\DevStuff\\APIs\\dotNet\\APIDataDriven\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Microsoft\\Xamarin\\NuGet\\"
