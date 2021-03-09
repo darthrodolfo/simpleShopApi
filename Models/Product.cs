@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Backoffice.Models
+namespace APIDataDriven.Models
 {
   public class Product
   {

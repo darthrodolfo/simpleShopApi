@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Backoffice.Models
+namespace APIDataDriven.Models
 {
   public class User
   {
@@ -18,5 +18,6 @@ namespace Backoffice.Models
     public int Password { get; set; }
 
     public int Role { get; set; }
+
   }
 }

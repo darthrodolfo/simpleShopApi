@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "f:\\DevStuff\\APIs\\dotNet\\APIDataDriven\\APIDataDriven.csproj": {}
+    "F:\\DevStuff\\APIs\\dotNet\\APIDataDriven\\APIDataDriven.csproj": {}
   },
   "projects": {
-    "f:\\DevStuff\\APIs\\dotNet\\APIDataDriven\\APIDataDriven.csproj": {
+    "F:\\DevStuff\\APIs\\dotNet\\APIDataDriven\\APIDataDriven.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\DevStuff\\APIs\\dotNet\\APIDataDriven\\APIDataDriven.csproj",
+        "projectUniqueName": "F:\\DevStuff\\APIs\\dotNet\\APIDataDriven\\APIDataDriven.csproj",
         "projectName": "APIDataDriven",
-        "projectPath": "f:\\DevStuff\\APIs\\dotNet\\APIDataDriven\\APIDataDriven.csproj",
+        "projectPath": "F:\\DevStuff\\APIs\\dotNet\\APIDataDriven\\APIDataDriven.csproj",
         "packagesPath": "C:\\Users\\darth\\.nuget\\packages\\",
-        "outputPath": "f:\\DevStuff\\APIs\\dotNet\\APIDataDriven\\obj\\",
+        "outputPath": "F:\\DevStuff\\APIs\\dotNet\\APIDataDriven\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Microsoft\\Xamarin\\NuGet\\"
@@ -41,6 +41,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[*, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
