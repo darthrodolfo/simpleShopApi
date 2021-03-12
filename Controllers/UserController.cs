@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace APIDataDriven.Controllers
 {
-
+  [Route("v1/users")]
   public class UserController : ControllerBase
   {
     [HttpGet]
@@ -23,7 +23,7 @@ namespace APIDataDriven.Controllers
       return users;
     }
 
-    [HttpGet]
+    [HttpPost]
     [Route("")]
     [AllowAnonymous]
     public async Task<ActionResult<User>> Post([FromServices] DataContext context, [FromBody] User newUser)
@@ -77,6 +77,9 @@ namespace APIDataDriven.Controllers
     [AllowAnonymous]
     public async Task<ActionResult<dynamic>> Authenticate([FromServices] DataContext context, [FromBody] User user)
     {
+      if (user == null)
+        return BadRequest(new { message = "Usuário inválido" });
+
       var authenticatedUser = await context.Users.AsNoTracking()
       .Where(x => x.Username == user.Username && x.Username == user.Password)
       .FirstOrDefaultAsync();
